@@ -1,9 +1,14 @@
-import "./App.css";
+import Header from "./components/Header";
+import MiddleSection from "./components/MiddleSection";
 
 function App() {
   return (
     <div>
-      <h1>Hello</h1>
+      {/* Header */}
+      <Header />
+
+      {/* middle section */}
+      <MiddleSection />
     </div>
   );
 }
